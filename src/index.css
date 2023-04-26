@@ -1,0 +1,90 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 18px;
+color: black;
+}
+
+img{
+
+  margin: 10px;
+  border-radius: 100%;
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(185, 152, 238);
+}
+
+.nav {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(185, 152, 238);
+  width: 500vh;
+  height: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+.nav div {
+background-color: rgba(185, 152, 238, 0.568);
+padding: 20px;
+margin: 20px;
+}
+
+
+.contenedor{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 213vh;
+  height: 85vh;
+}
+
+form {
+  border: 1px solid;
+  padding: 20px;
+  margin: 10px;
+  width: 90%;
+  height: 50%;
+}
+button{
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0;
+}
+.tabla{
+  width: 213vh;
+  height: 85vh;
+  padding: 20px;
+  
+}
+table{
+
+  border: 1px solid;
+  padding: 20px;
+  width: 90%;
+  height: 50%;
+}
+tr, td {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
